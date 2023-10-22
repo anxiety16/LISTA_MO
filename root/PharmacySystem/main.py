@@ -15,7 +15,14 @@ class Pharmacist:
         self.LicenseNumber = LicenseNumber
 
 class Medication:
-
+    def __init__(self, MedicationId, MedicationName, Description, Dosage, Price, Manufacturer, ExpirationDate):
+        self.MedicationId = MedicationId
+        self.MedicationName = MedicationName
+        self.Description = Description
+        self.Dosage = Dosage
+        self.Price = Price
+        self.Manufacturer = Manufacturer
+        self.ExpirationDate = ExpirationDate 
 
 class Inventory:
     def __init__(self,QuantityStock, MedicationId):
