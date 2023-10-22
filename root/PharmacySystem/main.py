@@ -30,7 +30,11 @@ class Inventory:
         self.MedicationId = MedicationId
 
 class Prescription:
-
+    def __init__(self, PrescriptionId, Customer, Medication, DateIssued):
+        self.PrescriptionId = PrescriptionId
+        self.Customer = Customer
+        self.Medication = Medication
+        self.DateIssued = DateIssued
 
 class Order:
 
