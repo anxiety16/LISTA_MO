@@ -37,4 +37,8 @@ class Prescription:
         self.DateIssued = DateIssued
 
 class Order:
-
+    def __init__(self, OrderId, Customer, Medication, TotalPrice):
+        self.OrderId = OrderId
+        self.Customer = Customer
+        self.Medication = Medication
+        self.TotalPrice = TotalPrice
